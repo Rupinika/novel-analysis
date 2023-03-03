@@ -6,22 +6,15 @@ import { Route, Routes } from 'react-router-dom';
 import Review from './components/Review';
 import Write from './components/Write';
 
-
-
-
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path='/Cards' element={<Cards />} />
+        <Route path='/novel-analysis' element={<Cards />} />
         <Route path='/Review' element={<Review />} />
         <Route path='/Write' element={<Write />} />
       </Routes>
-
-
-
-
     </>
   );
 }
