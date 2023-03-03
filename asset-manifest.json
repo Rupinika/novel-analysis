@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/novel-analysis/static/css/main.073c9b0a.css",
+    "main.js": "/novel-analysis/static/js/main.719caca6.js",
+    "static/js/787.fd88d1f3.chunk.js": "/novel-analysis/static/js/787.fd88d1f3.chunk.js",
+    "static/media/logo.svg": "/novel-analysis/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/novel-analysis/index.html",
+    "main.073c9b0a.css.map": "/novel-analysis/static/css/main.073c9b0a.css.map",
+    "main.719caca6.js.map": "/novel-analysis/static/js/main.719caca6.js.map",
+    "787.fd88d1f3.chunk.js.map": "/novel-analysis/static/js/787.fd88d1f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.719caca6.js"
+  ]
+}
