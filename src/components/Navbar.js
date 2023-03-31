@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/novel-anaylsis">
+          <Link className="navbar-brand" to="/novel-analysis">
             Novel Analysis
           </Link>
           <button
