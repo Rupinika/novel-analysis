@@ -8,11 +8,17 @@ function Write() {
   const reviewRef = useRef();
   const nameRef = useRef();
   function saveReview() {
-    fetch(
-      `https://apex.oracle.com/pls/apex/rupinika/novel/post?title=${titleRef.current.value}&author=${authorRef.current.value}&review=${reviewRef.current.value}&name=${nameRef.current.value}`,
-      { method: "POST" }
-    );
-    navigate("/Cards");
+    if (titleRef.current.value && authorRef.current.value && reviewRef.current.value && nameRef.current.value ){
+      fetch(
+        `https://apex.oracle.com/pls/apex/rupinika/novel/post?title=${titleRef.current.value}&author=${authorRef.current.value}&review=${reviewRef.current.value}&name=${nameRef.current.value}`,
+        { method: "POST" }
+      );
+      navigate("/novel-analysis");
+    }
+    else {
+      alert("Fill all the details")
+    }
+   
   }
   return (
     <>

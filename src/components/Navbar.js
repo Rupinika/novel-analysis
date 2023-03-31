@@ -26,7 +26,7 @@ function Navbar() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/"
+                  to="/novel-analysis"
                 >
                   Home
                 </Link>
