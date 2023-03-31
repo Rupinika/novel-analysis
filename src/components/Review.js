@@ -21,7 +21,7 @@ function Review() {
             <p>{localStorage.getItem("review")}</p>
             <Link
               type="button"
-              to="/"
+              to="/novel-anaylsis"
               className="btn btn-outline-primary "
             >
               Go back
