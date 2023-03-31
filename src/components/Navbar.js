@@ -6,9 +6,9 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Novel Analysis
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,7 +26,7 @@ function Navbar() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/Cards"
+                  to="/"
                 >
                   Home
                 </Link>

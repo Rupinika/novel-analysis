@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/novel-analysis' element={<Cards />} />
+        <Route path='/' element={<Cards />} />
         <Route path='/Review' element={<Review />} />
         <Route path='/Write' element={<Write />} />
       </Routes>
