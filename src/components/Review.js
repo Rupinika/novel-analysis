@@ -21,10 +21,10 @@ function Review() {
             <p>{localStorage.getItem("review")}</p>
             <Link
               type="button"
-              to="/Cards"
+              to="/"
               className="btn btn-outline-primary "
             >
-              Primary
+              Go back
             </Link>
           </div>
         </div>
